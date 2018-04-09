@@ -1,0 +1,10 @@
+Bread,Milk
+Bread,Diapers,Beer,Eggs
+Milk,Diapers,Beer,Cola
+Bread,Milk,Diapers,Beer
+Bread,Milk,Diapers,Cola
+Bread,Milk
+Bread,Cola,Beer,Milk
+Milk,Bread,Beer,Cola
+Bread,Milk,Diapers,Beer
+Bread,Beer,Diapers,Diapers
