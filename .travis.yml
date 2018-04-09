@@ -1,1 +1,6 @@
+language: python
 
+python:
+    - "3.6"
+   
+script: python test_apriori_command_line.py -f ./data/transaction.csv -s 0.20 -c 0.50 -r Bread
