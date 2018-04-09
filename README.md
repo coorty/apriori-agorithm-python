@@ -1,15 +1,18 @@
 # apriori-agorithm-python
+
+[![Build Status](https://travis-ci.org/coorty/apriori-agorithm-python.svg?branch=master)](https://travis-ci.org/coorty/apriori-agorithm-python)
+
 An Effectively Python Implementation of Apriori Algorithm for Finding Frequent sets and Association Rules
 
 # List of files
----------------
+
 1. data/transaction.csv: input file
 2. apriori.py: define a class **Apriori**
 3. test\_apriori\_command\_line.py: test the apriori algorithm
 
 
 # Dataset
----------
+
 Your should input path of a csv file, which may seems like:
 
     Bread,Milk 
@@ -26,7 +29,7 @@ Your should input path of a csv file, which may seems like:
 Each line is a transaction, seperated by comma (,).
 
 # Usage
--------
+
 To run the program with dataset provided (in ./data/) and mininum support = 0.12, mininum confidence = 0.5 and return rules for `Bread`: 
 
 	python test_apriori_command_line.py -f ./data/transaction.csv -s 0.20 -c 0.50 -r Bread
@@ -76,9 +79,10 @@ which produce results below:
 
 
 # Reference
------------
+
 > *Agrawal R, Srikant R. Fast algorithms for mining association rules[C]//Proc. 20th int. conf. very large data bases, VLDB. 1994, 1215: 487-499.*
 
 
 # License
+
 MIT-License
